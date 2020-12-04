@@ -1,0 +1,57 @@
+.statisticBlock {
+  margin-bottom: 14px;
+  padding: 12px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  .statisticBackground{
+      background-color: #fff;
+      box-shadow: 0 5px 5px hsla(0,0%,40%,.1);
+      padding: 18px 12px;
+  }
+  .stastatistic {
+      display: flex;
+      .gender {
+          display: flex;
+          flex-direction: column;
+          .maleFemale {
+              display: flex;
+          }
+      }
+      .colection {
+          padding: 18px 12px;
+          p {
+              color: rgba(0,0,0,.45);
+              font-size: 14px;
+          }
+          span {
+              color: rgba(0,0,0,.85);
+              font-size: 24px;
+          }
+      }
+  }
+  .nationalities {
+      padding: 18px 12px;
+      // table {
+      //     width: 100%;
+      //     table-layout: fixed;
+      //     td {
+      //         padding: 10px;
+      //     }
+      // }
+      .national {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      span {
+          display: flex;
+          color: rgba(0,0,0,.85);
+          font-weight: 600;
+          margin: 5px;
+          font-size: 14px;
+          p {
+              margin: 0 7px;
+              font-weight: 400;
+          }
+      }
+  }
+}

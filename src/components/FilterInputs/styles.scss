@@ -1,0 +1,25 @@
+.headerBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 14px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 5px hsla(0,0%,40%,.1);
+  input {
+      outline: none;
+  }
+  .name {
+      width: 35%;
+  }
+  .nationaly {
+      width: 20%;
+  }
+  .male {
+      width: 20%;
+  }
+  .btn {
+      background-color: #fff;
+      margin-top: -15px;
+      outline: none;
+      color: #1890ff;
+  }       
+}

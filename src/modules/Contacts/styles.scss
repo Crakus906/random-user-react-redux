@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .homeContainer {
+        background: rgb(253, 253, 253);
+        height: 7.5%;
+    }
+    .contacts {
+        height: 85%;
+        margin: 20px auto;
+        width: 95%;
+        .contactsHeader {
+          margin: 0 0 10px 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          span {
+            font-size: 32px;
+            line-height: 1.3333;
+          }
+
+        }
+        .contactsContent {
+          .contactsContentHeader {
+              margin-bottom: 14px;
+              padding: 12px;
+              background-color: #fafafa;
+              border-bottom: 1px solid #f0f0f0;
+          }
+          .contactsBlock {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+          }
+          table {
+            width: 100%;
+            thead {
+              color: rgba(0,0,0,.85);
+              font-weight: 500;
+              background: #fafafa;
+              border-bottom: 2px solid #ebebeb;
+            }
+            tbody {
+              margin: 10px;
+            }
+          }
+        }
+    }
+}

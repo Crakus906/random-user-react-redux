@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    .homeContainer {
+        background: rgb(253, 253, 253);
+        height: 100%;
+    }
+}
